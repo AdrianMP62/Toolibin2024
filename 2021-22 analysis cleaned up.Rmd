@@ -15,11 +15,6 @@ editor_options:
     wrap: 72
 ---
 
-```{r}
-dFHWHF[WFEHWH
-```
-
-
 ```{r, echo=FALSE, include = FALSE}
 packages <- c("mtcars","dplyr","scatterplot3d","plotly","RColorBrewer","stringr","rstudioapi","patchwork","glue","ClassDiscovery","vegan","tidyverse","lubridate","ggplot2","ggpubr","stringi","factoextra", "zoo","cluster","rgl","reshape2","ggthemes","data.table")
 lapply(packages, require, character.only=TRUE)
@@ -351,13 +346,6 @@ In three of the five sampling periods the Walbyring samples group
 somewhat separate to the Toolibin samples, but for Apr 2017 and November
 2021 this is not the case.
 
-
-
-
-
-
-
-
 ```{r fig.align = 'center'}
 #first set axis limits based on maximum values of coordinates
 Xmin <- min(mds1.I.pts$MDS1)*1.2 
@@ -452,7 +440,7 @@ mds3.I.pts$Col <- replace(mds3.I.pts$Col, mds3.I.pts$Col == "Reference", "green"
 mds3.I.pts$Col <- as.factor(mds3.I.pts$Col)
 ```
 
-
+UP TO HERE
 #ordination plot
 ```{r fig.align = 'center'}
 #first set axis limits based on maximum values of coordinates
